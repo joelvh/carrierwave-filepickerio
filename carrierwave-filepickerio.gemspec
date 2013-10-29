@@ -23,6 +23,6 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
   s.add_development_dependency "rails"
-  s.add_dependency "filepickerio_rails", "~> 0.0.2"
+  s.add_dependency "filepicker-rails"
   s.add_dependency "carrierwave"
 end

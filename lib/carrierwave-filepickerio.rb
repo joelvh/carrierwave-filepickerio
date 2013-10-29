@@ -3,7 +3,7 @@
 require 'carrierwave-filepickerio/version'
 
 require 'carrierwave'
-require 'filepickerio_rails'
+require 'filepicker-rails'
 require 'carrierwave-filepickerio/railtie' if defined?(Rails)
 
 module CarrierWave

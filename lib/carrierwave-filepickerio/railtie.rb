@@ -12,9 +12,7 @@ module CarrierWave
       end
 
       config.after_initialize do
-        FilepickerioRails.configure do |config|
-          config.api_key = config.api_key || CarrierWave::Uploader::Base.filepickerio_api_key
-        end
+        config.filepicker_rails.api_key = CarrierWave::Uploader::Base.filepickerio_api_key
       end
 
     end
